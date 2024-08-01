@@ -1,0 +1,54 @@
+*{
+    -ms-wrap-margin: 0px;
+}
+body{
+    background-image: url(img/fundotokyo.jpg);
+    font-family: sans-serif;
+    margin: 0px;
+}
+section#assuntos{
+    background-color: rgba(240, 248, 255, 0.267);
+}
+header{
+    background-color: rgba(255, 255, 255, 0.541);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 40px;
+}
+nav{
+    background-color: rgb(85, 77, 77);
+    padding: 3px;
+    box-shadow: 12px 7px 14px 0px rgba(0, 0, 0, 0.507);
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: rgba(255, 255, 255, 0.637);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 40px;
+    box-shadow: 3px 6px 20px 3px black;;
+}
+article{
+    background-color: lightgray;
+}
+article > aside{
+    background-color: rgb(87, 80, 80);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px
+}
